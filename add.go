@@ -1,6 +1,6 @@
 package moduler
 
-func Add(numbers ...int64) (result int64) {
+func Add(numbers ...int) (result int) {
 	for _, v := range numbers {
 		result += v
 	}
